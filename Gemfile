@@ -46,7 +46,7 @@ gem 'ruby-openid', '~>2.5.0'
 
 group :production do
   gem 'rails_12factor'
-  gem 'therubyracer'
+  # gem 'therubyracer'
 end
 
 group :test do
