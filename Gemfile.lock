@@ -230,6 +230,7 @@ GEM
     minitest (4.7.5)
     multi_json (1.9.2)
     multipart-post (1.2.0)
+    mysql2 (0.3.16)
     net-scp (1.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (2.6.8)
@@ -454,6 +455,7 @@ DEPENDENCIES
   jshint_on_rails
   launchy
   mime-types
+  mysql2
   newrelic_rpm
   nokogiri
   omniauth
