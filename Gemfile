@@ -47,6 +47,7 @@ gem 'ruby-openid', '~>2.5.0'
 group :production do
   gem 'rails_12factor'
   gem 'therubyracer'
+  gem 'mysql2'
 end
 
 group :test do
@@ -88,5 +89,5 @@ group :test, :development do
   gem 'pry'
   gem 'vagrant'
   gem 'timecop'
-  gem 'did_you_mean'
+  # gem 'did_you_mean'
 end
