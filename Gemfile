@@ -50,44 +50,44 @@ group :production do
   gem 'mysql2'
 end
 
-group :test do
-  gem 'headless'
-  gem 'vcr', '2.9.0'
-  gem 'fakeweb'
-end
-
-# NOTE: anything that will not work in travis should be here
-group :development do
-  gem 'awesome_print'
-  gem 'heroku_san'
-  gem 'guard-livereload'
-  gem 'rb-fsevent', '~> 0.9.1'
-  gem 'ruby-prof'
-  gem 'spring'
-  gem 'spring-commands-rspec'
-  gem 'better_errors'
-  gem 'binding_of_caller'
-end
-
-group :test, :development do
-  gem 'launchy'
-  gem 'jshint_on_rails'
-  gem 'rspec'
-  gem 'rspec-rails'
-  gem 'shoulda-matchers'
-  gem 'capybara'
-  gem 'jasmine', github: 'pivotal/jasmine-gem'
-  gem 'jasmine-rails'
-  gem 'selenium-webdriver', '>= 2.25.0' # NOTE: selenium-webdriver >= 2.25.0 is needed for the latest Firefox
-  gem 'factory_girl_rails'
-  gem 'ffaker'
-  gem 'guard-coffeescript'
-  gem 'database_cleaner'
-  gem 'capybara-webkit', '~> 1.1.1'
-  gem 'pry-nav'
-  gem 'pry-rails'
-  gem 'pry'
-  gem 'vagrant'
-  gem 'timecop'
-  gem 'did_you_mean'
-end
+# group :test do
+#   gem 'headless'
+#   gem 'vcr', '2.9.0'
+#   gem 'fakeweb'
+# end
+#
+# # NOTE: anything that will not work in travis should be here
+# group :development do
+#   gem 'awesome_print'
+#   gem 'heroku_san'
+#   gem 'guard-livereload'
+#   gem 'rb-fsevent', '~> 0.9.1'
+#   gem 'ruby-prof'
+#   gem 'spring'
+#   gem 'spring-commands-rspec'
+#   gem 'better_errors'
+#   gem 'binding_of_caller'
+# end
+#
+# group :test, :development do
+#   gem 'launchy'
+#   gem 'jshint_on_rails'
+#   gem 'rspec'
+#   gem 'rspec-rails'
+#   gem 'shoulda-matchers'
+#   gem 'capybara'
+#   gem 'jasmine', github: 'pivotal/jasmine-gem'
+#   gem 'jasmine-rails'
+#   gem 'selenium-webdriver', '>= 2.25.0' # NOTE: selenium-webdriver >= 2.25.0 is needed for the latest Firefox
+#   gem 'factory_girl_rails'
+#   gem 'ffaker'
+#   gem 'guard-coffeescript'
+#   gem 'database_cleaner'
+#   gem 'capybara-webkit', '~> 1.1.1'
+#   gem 'pry-nav'
+#   gem 'pry-rails'
+#   gem 'pry'
+#   gem 'vagrant'
+#   gem 'timecop'
+#   # gem 'did_you_mean'
+# end
